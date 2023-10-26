@@ -1,0 +1,58 @@
+@media (max-width:500px)
+{   
+    .main{
+        display: none;
+    }
+    .info{
+        width:100%;
+        left: 0;
+    }
+    .info p{
+        font-size:15px;
+    }
+    .info-1{
+        width:80%;
+        margin:30px;
+    }
+    .info-2, .info-img{
+        width:80%;
+        margin:50px;
+    }
+    .people-info,.people1{
+        width:80%;
+    }
+    .logos1{
+        width:50%;
+    }
+    .projects1,.project{
+        width:80%;
+    }
+    .p-info-1{
+        width:100%;
+        border-right: none;
+    }
+    .p-info{
+        height:850px;
+    }
+    
+    .news1,.news-info{
+        width:80%;
+    }
+
+    .footer1{
+        width:80%;
+        margin-left:100px;
+        margin-bottom:50px;
+    }
+    .footer2{
+        width:50%;
+    }
+    .footer-info{
+        width:80%;
+        margin:30px;
+    }
+    
+    
+
+
+}

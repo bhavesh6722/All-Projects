@@ -1,0 +1,27 @@
+@media (max-width:500px){
+.nav,.logo{
+        width: 100%;
+    }
+    .home-img{width:100%;}
+    .home-img1 .image{
+        height: 360px;
+        width: 360px;
+    }
+    .home-img .home-img1{
+        height: 400px;
+        width: 400px;
+    }
+    .home-content{width: 80%;margin: 40px auto 80px auto;}
+    .home-sci{width: 100%;}
+    .home-sci a{margin: 30px auto;}
+    .project1{width: 70%;}
+    .study{grid-template-columns: 1fr; margin: 30px auto;}
+    .study1
+    {margin: 20px 0;
+        top:-3%;
+        left:2%;
+      }
+      .study2{
+        margin-top:50px;
+      }  
+}

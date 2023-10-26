@@ -1,0 +1,66 @@
+body
+{
+    overflow-x: hidden;
+}
+.info{
+    background: red;
+}
+.pdi
+{
+    padding: 100px 0;
+}
+.ff
+{
+    font-size: 55px;
+    padding: 45px 0 0px 0;
+}
+.fl h2
+{
+    font-size: 40px;
+}
+.card-hover
+{
+    transform: 0.5s;
+}
+.card-hover:hover
+{
+    transform: scale(1.03) rotate(-2deg);
+}
+.photo{
+    transform: 0.5s;
+}
+.photo:hover{
+    transform: scale(1.03) rotate(-2deg);
+}
+
+.pb{
+    padding-bottom:120px;
+}
+.bg{
+    background: #a8d741;
+    
+}
+.bg2{
+    background:#f8f9fa;
+}
+.fc{
+    color: #a8d741;
+}
+.botton:hover{
+    transform: scale(1.045) rotate(3deg);
+    background: white;
+
+}
+.botton{
+    transform: 0.5s;
+}
+.btn{
+    background:black;
+    color: white;
+}
+.btn:hover{
+    background:white;
+    color: black;
+    transform: scale(1.045) rotate(3deg);
+}
+

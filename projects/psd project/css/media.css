@@ -1,0 +1,74 @@
+@media (max-width:500px){
+    .img2{
+        display: none;
+    }
+    .info{
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .info h1{
+     font-size:20px;
+    }
+    .info1 .inf1{
+        width:50%;
+    }
+    .photos{
+        width:100%;
+        margin:20px;
+    }
+    .discount1{
+        width:100%;
+    }
+    .discount2{
+        width:100%;
+    }
+    .offer1{
+        width:100%;
+    }
+    .offer2{
+        width:100%;
+    }
+    .shape-img2{
+        width:100%;
+        margin:100px 0 240px 80px;
+        
+    }
+    .shape-img2 h2{
+        font-size:30px;
+    }
+    .shape-img2 h1{
+        font-size:25px;
+    }
+    .text{
+        margin:0 0 0 0;
+    }
+    .shape-img{
+        height:400px;
+    }
+    .shape2{
+        width:80%;
+    }
+    .text1{
+        width:80%;
+    }
+    .text-info{
+        width:80%;
+    }
+    .titel2{
+        width:100%;
+    }
+    .titel2 input{
+        padding:10px 100px 10px 20px;
+    }
+    .footer2{
+        width:100%;
+        text-align:center;
+    }
+    .footer2 p{
+        width:100%;
+    }
+    .footer1{
+        width:100%;
+        margin: 50px 0 0 0;
+    }
+}

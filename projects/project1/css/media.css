@@ -1,0 +1,196 @@
+@media (max-width:1100px)
+{
+    .main .header
+    {
+        display: none;
+    }
+}
+@media (max-width:500px)
+{
+    .blank
+    {
+        display: none;
+    }
+    .photo{width: 100%;}
+    .main .info
+    {
+        padding: 100px 0px 80px 0px;
+    }
+
+    .main1
+    {
+        margin-top: 10px;
+    }
+    .main1 .front
+    {
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+
+    .main2,.photo,.info1
+    {
+        width: 100%;
+    }
+    .contain
+    {
+        padding: 20px;
+    }
+    .addx-1,.addx-2
+    
+{
+    width: 100%;
+}
+.member1,.member2,.member3,.member4
+{
+    width: 100%;
+}
+    .main3
+    {
+        background: transparent;
+    }
+    .col1,.col2,.book
+    {
+        width: 100%;
+    }
+    .x,.book1,.y{margin-left: 0px;}
+    
+    .awards
+    {
+        width: 90%;
+        height: 530px;
+        display: block;
+        text-align: left;
+    }
+    .awards1
+    {
+        width: 100%;
+        margin: 20px 0 0 0;
+        padding: 25px 15px 25px 15px;
+
+    }
+
+
+    .main7{width: 90%;margin-top: 100px;}
+    .info2,.info3
+    {
+        width: 100%;
+    }
+    .info3
+    {
+        margin: 40px 0;
+    }
+
+
+    .info4
+    {
+        background: transparent;
+    }
+    .manager3,.manager4
+    {
+        width: 100%;
+        background: transparent;
+    }
+    .work1{
+        width:80%;
+        margin: 30px 0px;
+    }
+    .light{
+        margin-left:100px;
+    }
+
+    .info9{
+        background: transparent;
+    
+    }
+    .mission4{
+        display: none;
+        
+    }
+    .mission-left p{
+        width:370px;
+    border-radius: 50px;
+
+    
+    }
+    .missions{
+        left: 0;
+        top: 0;
+    }
+    .mission-right,.missions1,.missions2{
+        width: 100%;
+    }
+    .add{
+        margin-top:400px;
+    }
+    .person{
+        width: 100%;
+        margin-top:20px;
+        
+    }
+    .subperson
+    {
+padding-top: 116px;
+
+    }
+
+
+.msg-2,.msg-1,.msg
+{
+    width: 100%;
+    
+}
+.msg
+{
+    margin-top: 80px;
+}
+.inputs input
+
+{
+     width: 90%;
+
+}
+.dis
+{
+    margin-left: 13px;
+    width: 90%;
+}
+.dic2
+{
+    margin-left:-3px;
+}
+.photo-10-detail
+{
+    width: 100%;
+}
+.photo10 .photo1{
+    width: 50%;
+    left: 30%;
+}
+.plan1{
+    width: 100%;
+}
+.time-main{
+    width:100%;
+    margin:50px;
+}
+.blog1,.blog2{
+    width: 100%;
+    margin: 20px;
+    
+}
+.blog{
+    margin: 0 0 0 0;
+    width: 100%;
+}
+.easy{
+    margin: 650px auto;
+    width:100%;
+    
+}
+.footer1{
+    width:60%
+    
+}
+
+}
