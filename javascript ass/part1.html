@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     div
+     {
+          padding: 30px;
+          font-size: 20px;
+          font-weight: 700;
+     }
+     span
+     {
+          height: 50px;
+          width: 100%;     
+          margin-left: 65px;
+
+     }
+     input
+     {
+          height: 30px;
+          margin-left: 50px;
+          font-weight: 700;
+
+     }
+     #i2
+     {
+          margin-left: 43px;
+     }
+     button
+     {
+          font-size: 22px;
+     }
+
+    </style>
+
+</head>
+<body>
+
+
+     <div>
+   Enter 1st Number: <input type="text" id="i1"><br>
+    <br>
+    Enter 2nd Number:  <input type="text" id="i2" ><br>
+    <br>
+<span class="span">Answer is :</span><span id="i3"></span><br>
+    <br>
+
+    
+
+    <button onclick="btnll()" id="btn4">+</button>
+    <button onclick="btn()" id="btn1">-</button>
+    <button id="btn2" onclick="btnnn()">*</button>
+    <button id="btn5" onclick="btnll2()">%</button>
+
+
+    <button onclick="btn3()" id="btn3">/</button>
+
+</div>
+
+
+    <script>
+
+        i1 = document.getElementById("i1")
+        i2 = document.getElementById("i2")
+        i3 = document.getElementById("i3")
+        btn1 = document.getElementById("btn1")
+        bt = document.getElementById("btn2")
+        bt1 = document.getElementById("btn3")
+        bt2 = document.getElementById("btn4")
+        bt3 = document.getElementById("btn5")
+
+
+       function btn()
+
+       {
+            i3.innerHTML = i1.value - i2.value
+       }
+
+       function btnnn()
+       {
+            i3.innerHTML = i1.value * i2.value
+       }
+
+       function btn3()
+
+       {
+            i3.innerHTML = i1.value / i2.value
+       }
+       function btnll()
+
+      {
+           i3.innerHTML = Number(i1.value) +Number(i2.value)
+      }
+
+      function btnll2()
+
+{
+     i3.innerHTML = i1.value % i2.value
+}
+
+
+
+        
+    </script>
+</body>
+</html>

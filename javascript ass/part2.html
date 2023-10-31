@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            padding: 20px;
+        }
+        input
+        {
+            height: 30px;
+            margin: 10px 0 0 100px;
+           
+        }
+        button
+        {
+            font-size: 22px;
+            margin:30px 0 0 200px;
+            padding: 10px;
+        }
+        span
+        {
+            color: blue;
+        }
+        #i1
+        {
+            margin-left: 121px;
+        }
+        #i2
+        {
+            margin-left: 105px;
+        }
+        #i3
+        {
+            margin-left: 142px;
+        }
+        #i4
+        {
+            margin-left: 153px;
+        }
+        #i5
+        {
+            margin-left: 170px;
+        }
+        #i6
+        {
+            margin-left: 170px;
+        }
+        #i7
+        {
+            margin-left: 135px;
+        }
+       
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <div class="main">
+        1. C Language <input type="text" id="i1"><br>
+        2. C++ Language <input type="text" id="i2"><br>
+        3. Database  <input type="text" id="i3"><br>
+        4. HTML <input type="text" id="i4"><br>
+        5. CSS <input type="text" id="i5"><br>
+        6. PHP <input type="text" id="i6"><br>
+        7. Core Java <input type="text" id="i7"><br>
+     </div>
+        <button onclick="himanshu()">Result</button><br><br><br>
+
+        Total is : <span id="span"></span>/ 350  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
+        Persentage is : <span id="Persentage"></span>% 
+    </div>
+
+    <script>
+        i1=document.querySelector("#i1")
+        i2=document.querySelector("#i2")
+        i3=document.querySelector("#i3")
+        i4=document.querySelector("#i4")
+        i5=document.querySelector("#i5")
+        i6=document.querySelector("#i6")
+        i7=document.querySelector("#i7")
+
+        span= document.querySelector("#span")
+        pk= document.querySelector("#Persentage")
+
+
+
+        function himanshu()
+        {
+          span.innerHTML= Number(i1.value)+Number(i2.value)+Number(i3.value)+Number(i4.value)+Number(i5.value)+Number(i6.value)+Number(i7.value);
+          pk.innerHTML = span.innerHTML*100 / 350
+        }
+               
+    </script>
+    
+</body>
+</html>

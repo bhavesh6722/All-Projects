@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .main
+    {
+        height: 400px;
+        width:100%;
+        background: coral;
+        position: relative;
+    }
+
+    .main1
+    {
+        height: 150px;
+        width: 150px;
+        border: 3px solid;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+    } 
+    .main2
+    {
+        height: 150px;
+        width: 150px;
+        border: 3px solid;
+        position: absolute;
+        top: 20%;
+        left: 18%;
+    } 
+    .main3
+    {
+        height: 250px;
+        width: 250px;
+        border: 3px solid;
+        position: absolute;
+        top: 13%;
+        left: 31%;
+    }
+    .main4
+    {
+        height: 150px;
+        width: 150px;
+        border: 3px solid;
+        position: absolute;
+        top: 20%;
+        left: 51%;
+    } 
+    .main5
+    {
+        height: 150px;
+        width: 150px;
+        border: 3px solid;
+        position: absolute;
+        top: 20%;
+        left:64%;
+    } 
+    #btnright
+    {
+        height: 50px;
+        width: 50px;
+        border: 3px solid;
+        position: absolute;
+        top: 80%;
+        left: 32%;
+        
+    }
+    #btnleft
+    {
+        height: 50px;
+        width: 50px;
+        border: 3px solid;
+        position: absolute;
+        top: 80%;
+        right: 53%;
+    }
+    
+    
+</style>
+
+</head>
+
+<body>
+
+    <div class="main">
+
+
+   <div class="main1"> <img src="m1.jpg" alt="" height="100%" width="100%" id="img1"> </div>
+   <div class="main2"><img src="m2.jpg" alt="" height="100%" width="100%" id="img2"></div>
+   <div class="main3"><img src="m3.jpg" alt="" height="100%" width="100%" id="img3"></div>
+   <div class="main4"><img src="m4.jpg" alt="" height="100%" width="100%" id="img4"></div>
+   <div class="main5"><img src="m5.jpg" alt="" height="100%" width="100%" id="img5"></div>
+
+       <button id="btnright" onclick="bgright()">></button>
+       <button id="btnleft" onclick="bgleft()"><</button>
+
+    </div>
+
+
+<script>
+
+
+    img1 = document.getElementById("img1");
+    img2 = document.getElementById("img2");
+    img3 = document.getElementById("img3");
+    img4 = document.getElementById("img4");
+    img5 = document.getElementById("img5");
+  btnright=document.getElementById('btnright');
+  btnleft=document.getElementById('btnleft');
+
+
+
+function  bgright()
+{
+   if(img1.src.match("m1.jpg"))
+{
+    img1.src="m2.jpg"
+    img2.src="m3.jpg"
+    img3.src="m4.jpg"
+    img4.src="m5.jpg"
+    img5.src="m1.jpg"
+
+}
+
+else if(img1.src.match("m2.jpg"))
+{
+    img1.src="m3.jpg"
+    img2.src="m4.jpg"
+    img3.src="m5.jpg"
+    img4.src="m1.jpg"
+    img5.src="m2.jpg"
+}
+
+else if(img1.src.match("m3.jpg"))
+{
+    img1.src="m4.jpg"
+    img2.src="m5.jpg"
+    img3.src="m1.jpg"
+    img4.src="m2.jpg"
+    img5.src="m3.jpg"
+}
+
+else if(img1.src.match("m4.jpg"))
+{
+    img1.src="m5.jpg"
+    img2.src="m1.jpg"
+    img3.src="m2.jpg"
+    img4.src="m3.jpg"
+    img5.src="m4.jpg"
+}
+
+else if(img1.src.match("m5.jpg"))
+{
+    img1.src="m1.jpg"
+    img2.src="m2.jpg"
+    img3.src="m3.jpg"
+    img4.src="m4.jpg"
+    img5.src="m5.jpg"
+}
+
+
+
+}
+
+function bgleft()
+{
+
+    if(img1.src.match("m1.jpg"))
+   {
+    img1.src="m5.jpg"
+    img2.src="m1.jpg"
+    img3.src="m2.jpg"
+    img4.src="m3.jpg"
+    img5.src="m4.jpg"
+   }
+
+   else if(img1.src.match("m5.jpg"))
+   {
+    img1.src="m4.jpg"
+    img2.src="m5.jpg"
+    img3.src="m1.jpg"
+    img4.src="m2.jpg"
+    img5.src="m3.jpg"
+   }
+
+   else if(img1.src.match("m4.jpg"))
+   {
+    img1.src="m3.jpg"
+    img2.src="m4.jpg"
+    img3.src="m5.jpg"
+    img4.src="m1.jpg"
+    img5.src="m2.jpg"
+   }
+
+   else if(img1.src.match("m3.jpg"))
+   {
+    img1.src="m2.jpg"
+    img2.src="m3.jpg"
+    img3.src="m4.jpg"
+    img4.src="m5.jpg"
+    img5.src="m1.jpg"
+   }
+
+   else if(img1.src.match("m2.jpg"))
+   {
+    img1.src="m1.jpg"
+    img2.src="m2.jpg"
+    img3.src="m3.jpg"
+    img4.src="m4.jpg"
+    img5.src="m5.jpg"
+   }
+    
+}
+</script>
+
+
+
+</body>
+
+
+</html>
