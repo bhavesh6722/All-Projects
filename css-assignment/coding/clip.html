@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,*:before,*:after
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+      header{
+       
+        height: 97vh;
+        width: 100vw;
+
+background:
+ url(./images/img1.jpeg);
+        background-size: cover;
+        background-position: center;
+       
+        clip-path: polygon(0 0, 100% 0, 100% 80%,50% 100% ,0 80% );
+        position: relative;
+
+      }
+      .navbar{
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+      }
+       .logo span{
+        color: black;
+        font-size: larger;
+        border: 1px solid white;
+        background: white;
+        
+      }
+       .logo{
+       
+        font-size: 30px;
+        color: white;
+        border: 1px solid white;
+        padding:0 10px;
+        
+
+       }
+       .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+
+
+       }
+       .navbar ul li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+       }
+       
+      #home{
+        color: red;
+        border-bottom: 1px solid red;
+      }
+      .content{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: white;
+
+      }
+      .content h1{
+        font-size: 70px;
+        margin-top: 80px;
+
+      }
+
+     .content  .a1{
+        color: white;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 20px;
+      }
+   button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px ;
+    font-weight: bold;
+    border: 2px solid #009688;
+
+
+   }
+   .btn1{
+    background: red;
+   }
+   .btn2{
+    background: transparent;
+   }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+
+            <div class="logo"><span>L</span>ogo</div>
+            <ul>
+                <li ><a href="#"id="home" >Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+           
+            <h1 class="a2">WELCOME TO SKY </h1>
+            <p class="a3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  <br> Natus commodi similique incidunt deleniti corrupti? Id dolores, laudantium ut <br> numquam odio voluptate molestiae labore in similique temporibus porro  <br>quibusdam consequuntur rerum veritatis dolor quod ullam deleniti.</p>
+            <div>
+                <button class="btn1">Get started now</button>
+                <button class="btn2">Learn more</button>
+            </div>
+        </div>
+
+    </header>
+</body>
+</html>

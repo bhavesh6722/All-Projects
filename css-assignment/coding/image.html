@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.gallery{
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #f2f2f2;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+
+
+}
+.view{
+    grid-row: span 2;
+
+}
+.high{
+    grid-column: span 2;
+
+}
+.big{
+    grid-row: span 2;
+    grid-column: span 2;
+
+}
+.gallery div img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+@media(max-width:560px)
+{
+    .view{
+        grid-row: span 1;
+
+    }
+    .high{
+        grid-column: span 1;
+    }
+    .big{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+}
+    
+    </style>
+</head>
+<body>
+<div class="gallery">
+    <div>
+        <img src="./images/image1.avif" alt="">
+    </div>
+    <div class="view">
+        <img src="./images/image2.avif" alt="">
+    </div>
+    <div class="high">
+        <img src="./images/image3.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image4.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image5.avif" alt="">
+    </div>
+    <div class="view">
+        <img src="./images/image6.avif" alt="">
+    </div>
+    <div class="big">
+        <img src="./images/image7.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image8.avif" alt="">
+    </div>
+    <div class="high">
+        <img src="./images/image9.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image10.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image11.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image12.avif" alt="">
+    </div>
+     <div class="view">
+        <img src="./images/image13.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image14.avif" alt="">
+    </div>
+    <div class="big">
+        <img src="./images/image15.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image16.avif" alt="">
+    </div>
+    <div class="high">
+        <img src="./images/image17.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image18.avif" alt="">
+    </div>
+    <div class="big">
+        <img src="./images/image19.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image20.avif" alt="">
+    </div>
+    <div>
+        <img src="./images/image21.avif" alt="">
+    </div>
+
+</div>
+</body>
+</html>
