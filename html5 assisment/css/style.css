@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background: blue;
+    padding:15px;
+    font-size:20px;
+    
+}
+.nav{
+    display:flex;
+    
+}
+
+.nav button{
+    padding:8px 20px;
+}
+.nav .nav1,.logo{
+    margin:5px 20px 0 0 ;
+}
+
+.nav-drop{
+    position: relative;
+}
+.nav-drop2{
+    position: absolute;
+    top:100%;
+    left:0;
+    width:120px;
+    background:red;
+    display: none;
+    
+}
+.nav-drop2 .nav2{
+    margin-top:10px;
+    border-bottom:2px solid;
+    padding:0 0 5px 10px;
+    
+}
+.nav-drop:hover .nav-drop2{
+    display: block;
+}
+
+.ad-drop{
+    position:relative;
+    
+}
+.set-div{
+    margin-left:15px;
+}
+
+.nav-drop3{
+    position: absolute;
+    top:-38%;
+    left:100%;
+    background: red;
+    display: none;
+
+}
+.nav3{
+    border-bottom:2px solid;
+    padding:5px 0 10px 5px;
+}
+
+.ad-drop:hover .nav-drop3{
+    display: block;
+}
