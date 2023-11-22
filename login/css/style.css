@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroung {
+    background: url(resto\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.backcolor {    
+    background:lightseagreen;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.heading {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.form {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 65%;
+}
+
+.formimg {
+    background: url(menuimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+#bookingForm{
+    height: 600px;
+    background-color: white;
+    font-size: 20px;
+}
+.btn{
+    padding: 5px 20px;
+    font-size: 18px;
+}

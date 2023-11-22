@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- create Restaurants Booking form  -->
+    <div class="backgroung">
+        <div class="backcolor">
+            <p class="heading">WELCOME TO MEET'S RESTAURANT</p>
+
+            <div class="form">
+                <div class="formimg"></div>
+                
+                <div id="bookingForm">
+                    <form action="">
+                    <p>User name</p>
+                    <input type="text">
+                    <br>
+                    <p>mobail number</p>
+                    <input type="text">
+                    <p>e-mail</p>
+                    <input type="text">
+                    <p>No of person</p>
+                    <input type="text"><br>
+                    <label for="bookingChoice">Choice of Booking:</label>
+                    <select id="bookingChoice" onchange="showBookingOptions()">
+                        <option value="">Select Booking Type</option>
+                        <option value="fullday">Full Day Booking</option>
+                        <option value="halfday">Half Day Booking</option>
+                        <option value="hourly">Hourly Booking</option>
+                    </select>
+                    <div id="bookingOptions"></div>
+<button class="btn" type="submit">submit</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- create Restaurants Booking form end  -->
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
